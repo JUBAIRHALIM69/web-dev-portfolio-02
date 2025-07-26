@@ -8,10 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="max-w-[1440px] m-auto overflow-x-hidden w-full">
+<body class="max-w-[1440px] m-auto overflow-x-hidden">
     <!-- nav section start -->
     <header>
-        <nav class="max-w-[1140px] m-auto">
+        <nav class="max-w-6xl m-auto">
             <div class="flex justify-between items-center mt-5 sm:px-6">
                 <div>
                     <a href="">
@@ -41,10 +41,11 @@
     <!-- start main section  -->
     <main>
         <!-- banner section -->
-        <section class="max-w-[1140px] min-h-[461px] lg:flex m-auto items-end justify-between">
+        <section class="max-w-6xl min-h-[461px] flex-col-reverse flex md:flex-row m-auto items-end justify-between">
             <div>
                 <h1 class="text-[65px] font-[700]">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
-                <p class="text-[#00000080] leading-relaxed">Indulge your senses with the beauty and fragrance of <br> our fresh flower
+                <p class="text-[#00000080] leading-relaxed">Indulge your senses with the beauty and fragrance of <br>
+                    our fresh flower
                     shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br>
                     are perfect for any occasion.</p>
             </div>
@@ -111,10 +112,11 @@
             </div>
         </section>
         <!-- plants Lover section  -->
-        <section class="max-w-[1140px] m-auto mt-40 sm:flex">
+        <section class="max-w-6xl m-auto mt-40 sm:flex">
             <div class="relative">
-                <img src="./images/flower-store.png" alt="image" class="w-[570px] h-[597px] relative">
-                <img src="./images/trusted-badge.png" alt="image" class="w-[286px] absolute -top-25 right-[-115px] z-2 hidden sm:block ">
+                <img src="./images/flower-store.png" alt="image" class="w-full h-auto relative">
+                <img src="./images/trusted-badge.png" alt="image"
+                    class="w-[286px] absolute -top-25 right-[-115px] z-2 hidden sm:block ">
             </div>
             <div class="relative w-[540px] h-[519px] z-1 pl-20 pt-10">
                 <h1 class="text-[50px] font-[700]">Flower & Plants Lover</h1>
@@ -139,6 +141,34 @@
             </div>
         </section>
         <!-- Latest Deal Section  -->
+        <section class="mt-20 max-w-full m-auto">
+            <div class="text-center">
+                <h1 class="text-5xl"><span class="text-[#E95A08]">Latest</span> Deals</h1>
+                <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh <br>flower shop.
+                    From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="max-w-full m-auto grid grid-cols-[25%_60%] gap-4 h-[400px] mt-20">
+                <!-- Left side: 2 stacked divs (each 50% height of left column) -->
+                <div class="flex flex-col gap-4">
+                    <div class="bg-[url('images/deal-bloom.png')] flex-1 rounded-xl flex items-center justify-center text-white flex-col font-bold bg-no-repeat bg-cover">
+                        <h2 class="text-[20px]">60% Off | Bloom Plant</h2>
+                        <h3>Shop Now</h3>
+                    </div>
+                    <div class="bg-[url('images/deal-ana.png')] flex-1 rounded-xl flex items-center justify-center flex-col text-white bg-no-repeat bg-cover">
+                        <h3 class="text-[20px] font-bold ">30% Off | Ana  Plant</h3>
+                        <h4><a href="">Shop Now</a></h4>
+
+                    </div>
+                </div>
+
+                <!-- Right side: 60% width, full height -->
+                <div class="bg-[url('images/deal-zabo.png')] rounded-xl flex items-center justify-center flex-col text-white bg-cover bg-no-repeat">
+                    <h2 class="text-3xl font-bold">25% Off | Zabo Plant</h2>
+                    <h3><a href="">Shop Now</a></h3>
+                </div>
+            </div>
+
+        </section>
         <!-- join section  -->
         <section class="mt-20 max-w-[1440px] m-auto  text-center bg-[url('images/news-letter-bg.png')] p-30 space-y-8">
             <h1 class="text-white text-[50px] font-bold">Join the colorful Bunch</h1>
